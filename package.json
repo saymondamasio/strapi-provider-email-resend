@@ -1,0 +1,40 @@
+{
+  "name": "strapi-provider-email-resend",
+  "version": "1.0.0",
+  "description": "Strapi Resend Provider",
+  "main": "./src",
+  "directories": {
+    "lib": "./src"
+  },
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "minor-release": "npm version minor && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saymondamasio/strapi-provider-email-resend.git"
+  },
+  "keywords": [
+    "strapi",
+    "resend",
+    "provider",
+    "email"
+  ],
+  "dependencies": {
+    "resend": "^3.2.0"
+  },
+  "author": "Saymon Damásio <saymon.damasio95@gmail.com> (saymoncode.com)",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/saymondamasio/strapi-provider-email-resend/issues"
+  },
+  "homepage": "https://github.com/saymondamasio/strapi-provider-email-resend#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.5"
+  }
+}
