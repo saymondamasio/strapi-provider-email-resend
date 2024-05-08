@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-resend",
+  "name": "strapi-provider-resend",
   "version": "1.0.1",
   "description": "Strapi Resend Provider",
   "main": "./src",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saymondamasio/strapi-provider-email-resend.git"
+    "url": "git+https://github.com/saymondamasio/strapi-provider-resend.git"
   },
   "keywords": [
     "strapi",
@@ -31,9 +31,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/saymondamasio/strapi-provider-email-resend/issues"
+    "url": "https://github.com/saymondamasio/strapi-provider-resend/issues"
   },
-  "homepage": "https://github.com/saymondamasio/strapi-provider-email-resend#readme",
+  "homepage": "https://github.com/saymondamasio/strapi-provider-resend#readme",
   "devDependencies": {
     "@types/node": "^18.15.5"
   }
